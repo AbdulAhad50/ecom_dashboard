@@ -207,7 +207,7 @@ export default function FilterBar({ filters, onChange, minDate, maxDate }: Filte
       initial={{ opacity: 0, y: -20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
-      className="rounded-2xl border border-slate-700/60 bg-slate-800/40 backdrop-blur-xl p-4 mb-6"
+      className="relative z-50 rounded-2xl border border-slate-700/60 bg-slate-800/40 backdrop-blur-xl p-4 mb-6"
     >
       <div className="flex flex-col gap-4">
         {/* Top row: filters */}
