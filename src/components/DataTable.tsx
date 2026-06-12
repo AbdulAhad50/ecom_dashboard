@@ -177,7 +177,7 @@ export default function DataTable({ data }: DataTableProps) {
                 <td className="px-4 py-2.5 text-xs text-blue-400 font-medium">
                   ${row.profit.toLocaleString()}
                 </td>
-                <td className="px-4 py-2.5 text-xs text-amber-400">{row.profitMargin}%</td>
+                <td className="px-4 py-2.5 text-xs text-amber-400">{row.profitMargin}</td>
                 <td className="px-4 py-2.5">
                   <span
                     className={`inline-flex px-2 py-0.5 rounded-md text-[10px] font-semibold border ${
